@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "sas": "^3.0.4",
     "sass": "^1.57.1",
+    "shortid": "^2.2.16",
     "web-vitals": "^2.1.4",
     "webpack-cli": "^4.10.0"
   },
