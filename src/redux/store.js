@@ -2,11 +2,13 @@ import { createStore } from 'redux';
 import initialState from './initialState';
 
 const reducer = (state, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case 'ADD_COLUMN':
-      return { ...state, columns: [...state.columns, { ...action.payload }]};
+      return { ...state, columns: [...state.columns, { ...action.payload }] };
     case 'ADD_CARD':
-      return { ...state, cards: [...state.cards, {...action.payload }]};
+      return { ...state, cards: [...state.cards, { ...action.payload }] };
+    case 'CHANGE_SEARCH_INPUT':
+      return { ...state, searchInput: action.payload };
     default:
       return state;
   }
