@@ -1,0 +1,1 @@
+export const doesContain = (a, b) => a.toLowerCase().includes(b.toLowerCase());
