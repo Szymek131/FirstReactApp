@@ -1,5 +1,8 @@
 import Container from "../Container/Container";
 import styles from './NavBar.module.scss';
+import clsx from "clsx";
+import { NavLink } from "react-router-dom";
+
 
 const NavBar = () => {
   return (
@@ -9,9 +12,12 @@ const NavBar = () => {
           <span className={styles.icon + " fa fa-tasks"} />
         </div>
         <div>
-          <a href="/" className={styles.linkItem}>Home</a>
-          <a href="/favorite" className={styles.linkItem}>Favorites</a>
-          <a href="/about" className={styles.linkItem}>About</a>
+          <NavLink className={clsx(({ isActive }) => isActive ? styles.linkActive : undefined, styles.linkItem)} to="/">
+            Home</NavLink>
+          <NavLink className={clsx(({ isActive }) => isActive ? styles.linkActive : undefined, styles.linkItem)} to="/favorite">
+            Favorites</NavLink>
+          <NavLink className={clsx(({ isActive }) => isActive ? styles.linkActive : undefined, styles.linkItem)} to="/about">
+            About</NavLink>
         </div>
       </Container>
     </nav>

@@ -3126,6 +3126,11 @@ clone-deep@^4.0.1:
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
 
+clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -7992,11 +7997,6 @@ sanitize.css@*:
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-13.0.0.tgz#2675553974b27964c75562ade3bd85d79879f173"
   integrity sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==
-
-sas@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/sas/-/sas-3.0.4.tgz#85dba43f35b314d109b8f7cd1412249995035064"
-  integrity sha512-Fi1sfAdsEpuNR1Ho7/lkrJYFU7kRPusFWFQP401lz0NIFX0OfcWhsUOXzEKyoNzW0TorfdmyC2yGorJ/CiNGqg==
 
 sass-loader@^12.3.0:
   version "12.6.0"

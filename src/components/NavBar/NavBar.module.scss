@@ -17,6 +17,7 @@
   text-decoration: none;
   color: white;
   padding: 0 10px;
+  text-decoration: none;
 }
 
 .icon::before {
@@ -24,4 +25,8 @@
   text-decoration: none;
   color: white;
   padding: 0 10px;
+}
+
+.linkActive {
+  color: $color-warning;
 }
