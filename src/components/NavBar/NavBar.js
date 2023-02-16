@@ -12,11 +12,11 @@ const NavBar = () => {
           <span className={styles.icon + " fa fa-tasks"} />
         </div>
         <div>
-          <NavLink className={clsx(({ isActive }) => isActive ? styles.linkActive : undefined, styles.linkItem)} to="/">
+          <NavLink className={({ isActive }) => clsx(isActive ? styles.linkActive : undefined, styles.linkItem)} to="/">
             Home</NavLink>
-          <NavLink className={clsx(({ isActive }) => isActive ? styles.linkActive : undefined, styles.linkItem)} to="/favorite">
+          <NavLink className={({ isActive }) => clsx(isActive ? styles.linkActive : undefined, styles.linkItem)} to="/favorite">
             Favorites</NavLink>
-          <NavLink className={clsx(({ isActive }) => isActive ? styles.linkActive : undefined, styles.linkItem)} to="/about">
+          <NavLink className={({ isActive }) => clsx(isActive ? styles.linkActive : undefined, styles.linkItem)} to="/about">
             About</NavLink>
         </div>
       </Container>

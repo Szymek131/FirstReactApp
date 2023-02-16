@@ -11,3 +11,16 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+.starButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 1.2s;
+}
+
+.active {
+    color: $color-favorite;
+    transition: 1.2s;
+    scale: 1.5;
+}
